@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "aluruarumullaa1"
+  bucket = "asmaa-devops-bucket-123"
 
   tags = {
-    Name        = "aluruarumullaa1"
+    Name        = "asmaa-devops-bucket-123"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "arumullaaluruu1"
+  bucket = "asmaa-devops-bucket-1234b"
 
   tags = {
-    Name        = "arumullaaluruu1"
+    Name        = "asmaa-devops-bucket-1234b"
     Environment = "dev"
   }
 }
